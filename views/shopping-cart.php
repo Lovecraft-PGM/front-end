@@ -19,7 +19,7 @@
                 <div class="col-lg-9">
                     <div class="card border border-dark-subtle shadow-0">
                         <div class="m-4">
-                            <div id="container-titles" class="d-flex">
+                            <div class="container-titles d-flex">
                                 <h4 class="card-title mb-4">Tu carrito de compras</h4>
                                 <h6 class="card-title mb-4 p-1">(<span></span>)Productos</h6>
                             </div>
@@ -27,7 +27,7 @@
                                 <div class="col-lg-5">
                                     <div class="me-lg-5">
                                         <div class="d-flex">
-                                            <img src="../img/Product.jpg" class="border rounded me-3" style="width: 96px; height: 96px;" />
+                                            <img src="../img/Product.jpg" class="img-product border rounded me-3"/>
                                             <div class="">
                                                 <a href="#" class="nav-link">Zapatillas Nike Air force</a>
                                                 <p class="text-muted">Blanco, Zapatillas</p>
@@ -37,7 +37,7 @@
                                 </div>
                                 <div class="col-lg-2 col-sm-6 col-6 d-flex flex-row flex-lg-column flex-xl-row text-nowrap">
                                     <div class="">
-                                        <input type="number" style="width: 100px;" class="form-control me-4"></input>
+                                        <input type="number" max="50" min="1" class="input-calculo form-control me-4"></input>
                                     </div>
                                     <div class="">
                                         <text class="h6">$1156.00</text> <br />
