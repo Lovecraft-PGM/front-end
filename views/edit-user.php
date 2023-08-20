@@ -1,7 +1,7 @@
 <?php
 require_once('resources/initiator.php')
 ?>
-<link rel="stylesheet" href="../css/styleEditUser.css">
+<link rel="stylesheet" href="../css/edit-user.css">
 <?php
 require_once('resources/header2.php')
 ?>
@@ -61,7 +61,7 @@ require_once('resources/header2.php')
 
       <div class="col-md-6">
         <div class="container d-flex flex-column align-items-center">
-          <!-- <div class="" style="background-color: #ffffff; padding: 20px;"> -->
+          <!-- <div class="" ="background-color: #ffffff; padding: 20px;"> -->
           <!-- Contenido del segundo div container -->
           <div class="country col-8">
             <label for="EditCountry" class="form-label">Pais</label>
@@ -109,7 +109,7 @@ require_once('resources/header2.php')
             <!-- <div  id="btn" class="container d-flex flex-column align-items-center">
                                     <button type="button" class="btn  ">Guardar</button>
                                 </div> -->
-            <div class="container d-flex flex-column align-items-center" style="padding: 10px;">
+            <div class="container d-flex flex-column align-items-center" ="padding: 10px;">
 
               <button type="button" class="btn ">Iniciar Sesión</button>
             </div>

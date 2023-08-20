@@ -1,4 +1,4 @@
-<!-- Footer con imagen (LOGO/MEDIOS DE PAGO) -->
+<!-- footer con imagen (LOGO/MEDIOS DE PAGO) -->
 
 <footer class="bg-dark text-center text-lg-start text-white bg-black">
     <!-- Grid container -->
@@ -14,12 +14,12 @@
                     <img class="logo" src="../img/metodos.png">
                 </div>
             </div>
-            <!-- Footer con imagen (LOGO/MEDIOS DE PAGO) -->
+            <!-- footer con imagen (LOGO/MEDIOS DE PAGO) -->
             <!--COLUMNAS DE Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase mb-4">Atencion al cliente</h5>
                 <h5 class="text-uppercase mb-4">---------------------------</h5>
-                <ul class="list-unstyled">
+                <ul class="list-und">
                     <li class="mb-2">
                         <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contacto</a>
                     </li>
@@ -39,7 +39,7 @@
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase mb-4">Atencion al clientte</h5>
                 <h5 class="text-uppercase mb-4">---------------------------</h5>
-                <ul class="list-unstyled">
+                <ul class="list-und">
                     <li class="mb-2">
                         <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contacto</a>
                     </li>

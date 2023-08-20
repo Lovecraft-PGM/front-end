@@ -1,0 +1,133 @@
+/* INICIO pestañas navegador */
+.space-slider {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.slider {
+  max-width: 1000px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 400%;
+  height: 10rem;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: 100%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 768px;
+  height: 500px;
+}
+
+/* css pra manual slide  navegacion */
+
+.navegacion-manual {
+  position: absolute;
+  width: 1000px;
+  margin-top: 17rem;
+  display: flex;
+  justify-content: center;
+}
+
+.section-slider-cat{
+  padding: 0 1000px 160px 0;
+  display: flex;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.manual-btn {
+  border: 2px solid #000000;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 1px 0px 3px black;
+}
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background: #b8750a;
+  box-shadow: -2px 0px 15px #000000;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}
+/* css para navegacion automatica */
+.auto-navegacion {
+  position: absolute;
+  width: 768px;
+  margin-top: 8.5rem;
+  display: flex;
+  justify-content: center;
+}
+.auto-navegacion div {
+  border: 2px solid #000000;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.auto-navegacion div:not(:last-child) {
+  margin-right: 40px;
+}
+
+.radio1:checked ~ .auto-navegacion .autobtn1 {
+  background: #000000;
+}
+.radio2:checked ~ .auto-navegacion .autobtn2 {
+  background: #000000;
+}
+.radio3:checked ~ .auto-navegacion .autobtn3 {
+  background: #000000;
+}
+.radio4:checked ~ .auto-navegacion .autobtn4 {
+  background: #000000;
+}
+
+/* FIN pestañas navegantes */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.card-slider-cat {
+  max-width: 200px;
+  max-height: 280px;
+  margin: 0px 30px;
+  align-items: center;
+  justify-content: center;
+}
+.img-slider-cat {
+  max-width: 190px;
+  max-height: 270px;
+  background-color: green;
+}
+.card-slider-cat p {
+  color: #000000;
+
+}
+/* segundo slider */
+

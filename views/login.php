@@ -3,46 +3,46 @@
 require_once('resources/initiator.php')
 ?>
 
-<link rel="stylesheet" href="../css/styleLogin.css">
+<link rel="stylesheet" href="../css/login.css">
 
 <?php
-require_once('resources/headerBasico.php')
+require_once('resources/header-basico.php')
 ?>
 
-    <div class="container ">
-        <div class="row justify-content-center pt-5 mt-5 m-1">
+<div class="container1">
+    <div class="row justify-content-center mt-3">
 
-            <form class="formulario" action="check" method="post">
-                <div class="title text-center mt-5 mb-5">
-                    <p>Bienvenido</p>
-                </div>
-                <div>
-                    <img class="avatar" src="../img/perfil.png" alt="">
-                </div>
-           
-                <div class="col-md-7 mx-auto mb-4">
+        <form class="formulario" action="check" method="post">
+            <div class="title text-center">
+                Bienvenido
+            </div>
+            <div>
+                <img class="avatar" src="../img/perfil.png" alt="">
+            </div>
 
-                    <b><label class="word" for="email">Correo</label></b>
+            <div class="col-md-7 mx-auto mt-3 mb-4">
 
-                    <input class="form-control" type="email" name="email">
-                </div>
-                <div class="col-md-7 mx-auto mb-4 d-grid gap-2">
+                <label class="word" name="email">Correo</label>
 
-                    <b><label class="word" for="password">Contraseña</label></b>
+                <input class="form-control" type="email" name="email">
+            </div>
+            <div class="col-md-7 mx-auto mb-5 d-grid gap-2">
 
-                    <input class="form-control" type="password" name="password">
+                <label class="word" name="password">Contraseña</label>
 
-                    
-                </div>
-                <div class="col-md-5 mx-auto mb-4 text-center">
-                    <button type="button" class="btn btn-light">Iniciar Sesión</button>
-                </div>
-                <div class="col-md-4 mx-auto mb-4 text-center">
-                    <a class="" href="{{url('/')}}">Registrarse</a>
-                </div>
-            </form>
-        </div>
+                <input class="form-control" type="password" name="password">
+
+            </div>
+
+            <div class="col-md-5 mx-auto mb-4 text-center">
+                <button type="button" class="btn btn-light">Iniciar Sesión</button>
+            </div>
+            <div class="col-md-4 mx-auto mb-4 text-center">
+                <a class="link_register" href="register.php">Registrarse</a>
+            </div>
+        </form>
     </div>
+</div>
 </body>
 
 </html>

@@ -2,39 +2,115 @@
 require_once('resources/initiator.php')
 ?>
 
-<link rel="stylesheet" href="../css/styleIndex.css" />
+<link rel="stylesheet" href="../css/index.css" />
+<LINK REL=StyleSheet HREF="../css/slider.css" TYPE="text/css" MEDIA=screen>
+<script src="../js/index.js"></script>
 
 <?php
-require_once('resources/Header1.php')
+require_once('resources/header-1.php')
 ?>
 
-<div class="jumbotron jumbotron-fluid collection">
-    <div class="container d-flex flex-column align-items-center bg-success">
-        <img src="../img/banner.webp" class="custom-image" alt="Responsive image">
-    </div>
+<div class="collection">
+        <p id="text-colletion1">NEW</p>
+        <p id="text-colletion2">COLLECTION</p>
+</div>
+
+<div class="category-title">
+    <h6>CATEGORIAS</h6>
 </div>
 
 
+<nav class="space-slider">
+    <!-- empiza carrucel de imagenes -->
 
-
-<div class="container text-center bg-primary sliderIndex">
-    <h2 class="display-4">CATEGORIAS</h2> <!-- Contenedor principal centrado -->
-    <div class="row">
-        <!-- Las siguientes clases col-md-3 definen que cada columna ocupe 3/12 (1/4) del ancho total en dispositivos medianos y más grandes -->
-        <div class="col-md-3">
-            <img src="../img/carru2.jpeg" alt="Imagen 1" style="width: 200px; height: 150px;">
-        </div>
-        <div class="col-md-3">
-            <img src="../img/carru3.jpg" alt="Imagen 2" style="width: 200px; height: 150px;">
-        </div>
-        <div class="col-md-3">
-            <img src="../img/carru4.jpg" alt="Imagen 3" style="width: 200px; height: 150px;">
-        </div>
-        <div class="col-md-3">
-            <img src="../img/caru.jpg" alt="Imagen 4" style="width: 200px; height: 150px;">
+    <div class="slider">
+        <div class="slides">
+            <!-- botones  radio star -->
+            <input type="radio" name="radio-btn" id="radio1" class="bt" />
+            <input type="radio" name="radio-btn" id="radio2" class="bt" />
+            <input type="radio" name="radio-btn" id="radio3" class="bt" />
+            <input type="radio" name="radio-btn" id="radio4" class="bt" />
+            <!-- slide imajenes inicio -->
+            <div class="slide first">
+                <div class="section-slider-cat">
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="slide first">
+                <div class="section-slider-cat">
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="slide first">
+                <div class="section-slider-cat">
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="slide first">
+                <div class="section-slider-cat">
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                    <a class="card-slider-cat" href="#">
+                        <img class="img-slider-cat" src="" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- slide imagenes final -->
         </div>
     </div>
-</div>
+    <!-- termina callusel de imagenes -->
+
+    <!-- manual de navegacion nicio -->
+    <div class="navegacion-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+
+</nav>
+
+
 
 <div class="bestSeller">
     <div class="container">
@@ -56,24 +132,30 @@ require_once('resources/Header1.php')
         </div>
     </div>
 </div>
-
-
-
-
-<div class="slider-container">
+<div class="category-title">
+    <h6>MARCAS</h6>
+</div>
+<div class="space-slider">
     <div class="slider">
-        <div class="slide">
-            <img src="../img/1.jfif" alt="Imagen 1">
-        </div>
-        <div class="slide">
-            <img src="../img/2.jfif" alt="Imagen 2">
+        <div class="slide first">
+            <div class="section-slider-cat">
+                <a class="card-slider-cat" href="#">
+                    <img class="img-slider-cat" src="" alt="">
+                </a>
+                <a class="card-slider-cat" href="#">
+                    <img class="img-slider-cat" src="" alt="">
+                </a>
+                <a class="card-slider-cat" href="#">
+                    <img class="img-slider-cat" src="" alt="">
+                </a>
+                <a class="card-slider-cat" href="#">
+                    <img class="img-slider-cat" src="" alt="">
+                </a>
+            </div>
         </div>
     </div>
-    
 </div>
-<button class="prev-btn" onclick="prevSlide()">Anterior</button>
-<button class="next-btn" onclick="nextSlide()">Siguiente</button>
 
 <?php
-require_once('resources/Footer.php')
+require_once('resources/footer.php')
 ?>

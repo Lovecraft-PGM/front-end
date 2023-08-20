@@ -3,12 +3,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 .title {
     color: white;
-    font-size: 4em;
+    font-size: 6em;
     font-weight: bold;
 }
 
@@ -21,14 +21,22 @@ a:hover {
     color: white;
 }
 
+.container1 {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
 .formulario {
     border-radius: 25px;
     border: 1px solid #ffffff07;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.164);
-    height: 85vh;
-    width: 80vh;
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    padding: 20px;
 }
 
 .form-control {
@@ -52,6 +60,11 @@ a:hover {
     color: white;
 }
 
+.link_register {
+    font-size: 2vh;
+    color: white;
+}
+
 .btn {
     font-weight: 600;
     background: rgba(255, 252, 250, 0.7);
@@ -64,18 +77,52 @@ a:hover {
     height: 5vh;
     font-size: 2vh;
 }
-
+#avatar-container{
+ width: 110px;
+ height: 110px;
+ overflow: hidden;
+}
 .avatar {
-    width: 110px;
-    height: 10vh;
+    width: 100%;
+    max-width: 110px;
+    height: 100%;
     display: block;
     margin: auto;
     background: rgba(177, 85, 0, 0.64);
-    border-radius: 50%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
     .title {
-        font-size: 3em !important;
+        font-size: 5em !important;
     }
+    .btn {
+        width: 80% !important;
+        height: 80% !important;
+        font-size: 2em !important;
+
+    }
+    .word {
+        font-size: 2em !important;
+    }
+    .link_register {
+        font-size: 2em !important;
+    }
+
 }
+
+@media(min-width: 801px){
+    .container1{
+   padding: 50px !important;}
+
+   .formulario {
+    padding: 50px;
+
+   }
+}
+    
+    

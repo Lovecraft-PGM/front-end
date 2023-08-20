@@ -146,14 +146,14 @@
    */
   
   img {
-    border-style: none;
+    border-: none;
   }
   
   /* Forms
      ========================================================================== */
   
   /**
-   * 1. Change the font styles in all browsers.
+   * 1. Change the font s in all browsers.
    * 2. Remove the margin in Firefox and Safari.
    */
   
@@ -189,7 +189,7 @@
   }
   
   /**
-   * Correct the inability to style clickable types in iOS and Safari.
+   * Correct the inability to  clickable types in iOS and Safari.
    */
   
   button,
@@ -207,12 +207,12 @@
   [type="button"]::-moz-focus-inner,
   [type="reset"]::-moz-focus-inner,
   [type="submit"]::-moz-focus-inner {
-    border-style: none;
+    border-: none;
     padding: 0;
   }
   
   /**
-   * Restore the focus styles unset by the previous rule.
+   * Restore the focus s unset by the previous rule.
    */
   
   button:-moz-focusring,
@@ -274,7 +274,7 @@
   }
   
   /**
-   * Correct the cursor style of increment and decrement buttons in Chrome.
+   * Correct the cursor  of increment and decrement buttons in Chrome.
    */
   
   [type="number"]::-webkit-inner-spin-button,
@@ -284,7 +284,7 @@
   
   /**
    * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
+   * 2. Correct the outline  in Safari.
    */
   
   [type="search"] {
@@ -301,7 +301,7 @@
   }
   
   /**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 1. Correct the inability to  clickable types in iOS and Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
   

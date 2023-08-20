@@ -1,9 +1,9 @@
 <?php
 require_once('resources/initiator.php')
 ?>
-<link rel="stylesheet" href="../css/styleRegister.css" />
+<link rel="stylesheet" href="../css/register.css" />
 <?php
-require_once('resources/headerBasico.php')
+require_once('resources/header-basico.php')
 ?>
 
 
@@ -99,7 +99,7 @@ require_once('resources/headerBasico.php')
                     <div class="mb-3 form-check" style="padding: 20px;">
                         <input type="checkbox" class="form-check-input" id="terminos" name="terminos">
                         <label class="form-check-label" for="terminos">
-                            Aceptar <a href="">términos y condiciones</a>
+                            Aceptar <a id="abrirVentana" href="terms.php">términos y condiciones</a>
                         </label>
                     </div>
                     <div class="container d-flex flex-column align-items-center" style="padding: 10px;">

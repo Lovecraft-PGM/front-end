@@ -1,8 +1,9 @@
 .collection{
-    max-height: 50vh;
-    background-image: url();
+    align-items: center;
+    height: 30vh;
+    background-image: url(../img/fondo.jpg);
     overflow: hidden;
-    background-color: red;
+    box-shadow: 0 0 10px #000000;
 }
 
 .bestSeller{
@@ -80,22 +81,15 @@
     height: auto;
 }
 
-.prev-btn,
-.next-btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+.category-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.prev-btn {
-    margin-right: 10px;
-}
-
-.next-btn:hover,
-.prev-btn:hover {
-    background-color: #555;
+.category-title h6{
+    color: #d98405;
+    font-size: xx-large;
+    margin: 20px;
+    
 }

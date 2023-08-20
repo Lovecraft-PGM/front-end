@@ -1,7 +1,7 @@
 <?php
 require_once('initiator.php');
 ?>
-<link rel="stylesheet" href="../css/styleHeaderBasico.css" />
+<link rel="stylesheet" href="../css/header-basico.css" />
 
 </head>
 
@@ -12,7 +12,7 @@ require_once('initiator.php');
             <div class="row">
                 <div class="col text-center">
                     <!-- Reemplaza 'ruta_a_tu_logo.png' con la ruta de tu logotipo -->
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="../img/BD1.png" alt="Logo personalizado" class="img-fluid logoSimple-img">
                     </a>
                 </div>
