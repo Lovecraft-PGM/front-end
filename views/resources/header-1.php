@@ -27,7 +27,7 @@ require_once('initiator.php');
                         <a class="nav-link categoyHeader" href="#">ZAPATOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link categoyHeader specialLink" href="#">DOWNLOADS</a>
+                        <a class="nav-link categoyHeader specialLink" id="downloads" href="#">DOWNLOADS</a>
                     </li>
                 </ul>
                 <form id="search-form" class="d-flex" role="search">

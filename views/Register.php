@@ -75,7 +75,13 @@ require_once('resources/header-basico.php')
 
                     <div class="sex col-8">
                         <label for="inputSex" class="form-label">Sexo</label>
-                        <input type="text" class="form-control" id="inputSex">
+                        <select class="form-select " aria-label="Default select example" id="inputMunicipality">
+                            <option selected></option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Femenino</option>
+                            <option value="2">Otros</option>
+
+                        </select>
                     </div>
                     <div class="Email col-8">
                         <label for="inputEmail" class="form-label">Correo</label>
@@ -99,7 +105,7 @@ require_once('resources/header-basico.php')
                     <div class="mb-3 form-check" style="padding: 20px;">
                         <input type="checkbox" class="form-check-input" id="terminos" name="terminos">
                         <label class="form-check-label" for="terminos">
-                            Aceptar <a id="abrirVentana" href="terms.php">términos y condiciones</a>
+                            Aceptar <a id="abrirVentana" href="terms.php" target="_blank">términos y condiciones</a>
                         </label>
                     </div>
                     <div class="container d-flex flex-column align-items-center" style="padding: 10px;">

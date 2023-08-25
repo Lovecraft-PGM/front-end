@@ -3,7 +3,7 @@ require_once('resources/initiator.php')
 ?>
 <link rel="stylesheet" href="../css/edit-user.css">
 <?php
-require_once('resources/header2.php')
+require_once('resources/header-2.php')
 ?>
 
 <body>
@@ -102,16 +102,13 @@ require_once('resources/header2.php')
               <input type="password" class="form-control" id="NewPass" aria-describedby="emailHelp">
             </div>
             <div class="verify_pass col-14">
-              <label for="VerifyPass" class="form-label">Verificar contraseña</label>
+              <label for="VerifyPass" class="form-label">Verificar contraseña nueva</label>
               <input type="password" class="form-control" id="VerifyPass" aria-describedby="emailHelp">
               <br>
             </div>
-            <!-- <div  id="btn" class="container d-flex flex-column align-items-center">
-                                    <button type="button" class="btn  ">Guardar</button>
-                                </div> -->
             <div class="container d-flex flex-column align-items-center" ="padding: 10px;">
 
-              <button type="button" class="btn ">Iniciar Sesión</button>
+              <button type="button" class="btn ">Crear Cuenta</button>
             </div>
           </div>
         </div>

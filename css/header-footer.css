@@ -5,6 +5,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #e6e6e6;
 }
 
 .HeaderLittle{
@@ -40,6 +41,7 @@ body {
 
 .BgBlack {
   background-color: #000000;
+  min-width: 100vh !important;
 }
 
 .containerlogo {

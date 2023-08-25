@@ -135,11 +135,6 @@ require_once('resources/header-basico.php')
         </p>
 
     </div>
-    <div class="container d-flex flex-column align-items-center py-2">
-
-        <button type="button" class="btn ">Regresar</button>
-
-    </div>
 
 </body>
 

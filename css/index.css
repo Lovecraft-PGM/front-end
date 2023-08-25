@@ -1,13 +1,16 @@
 .collection{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 30vh;
-    background-image: url(../img/fondo.jpg);
+    height: 40vh;
+    min-width: 100vh;
+    background-color: #0000008f;
     overflow: hidden;
     box-shadow: 0 0 10px #000000;
 }
 
 .bestSeller{
-    background-color: #d98405;
+    background-color: #dd8400;
     margin:15px 0px ;
     box-shadow:  0 0 10px #835003;
 }
@@ -54,32 +57,8 @@
     -ms-transition: 500ms;
     -o-transition: 500ms;
 }
-.sliderIndex{
-    margin-top:15px ;
-    margin-bottom:15px 
-}
 
 
-/* _________________________________ */
-
-.slider-container {
-    width: 400px;
-    overflow: hidden;
-}
-
-.slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-    min-width: 400px;
-}
-
-.slider img {
-    width: 100%;
-    height: auto;
-}
 
 .category-title{
     display: flex;
@@ -88,8 +67,35 @@
 }
 
 .category-title h6{
-    color: #d98405;
+    color: #a46300;
     font-size: xx-large;
     margin: 20px;
-    
 }
+
+.space-slider2marc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+.card-slider-mar{
+    margin: 0px 30px;
+}
+
+.card-slider-mar img{
+    width: 190px;
+    height: 270px;
+    background-color: green;
+    border-radius: 10px;
+}
+.card-slider-mar img:hover{
+    box-shadow:0 0 15px #a06b00;
+}
+.slick-prev:before, .slick-next:before{
+    color: #160e01;
+}
+.slider2mar{
+    max-width: 1000px;
+    height: 300px;
+  
+  }
