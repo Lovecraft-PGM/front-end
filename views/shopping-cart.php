@@ -11,6 +11,7 @@
     <!-- Favicon and Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="../css/style-shopping-cart.css">
 </head>
 
@@ -55,7 +56,7 @@
                                 <!-- Delete button column -->
                                 <div class="col-lg col-sm-6 d-flex justify-content-sm-center justify-content-md-start justify-content-lg-center justify-content-xl-end mb-2">
                                     <div class="float-md-end">
-                                        <a href="#" class="btn btn-danger border icon-hover-danger"><i class="fa-solid fa-trash" style="color: #ffffff;"></i> Eliminar</a>
+                                        <a href="#" class="btn btn-danger border icon-hover-danger"><i class="fa-solid fa-trash"></i> Eliminar</a>
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +88,7 @@
                             </div>
                             <!-- Buttons for purchase -->
                             <div class="mt-3">
-                                <a href="#" class="btn btn-1 w-100 shadow-0 mb-2"><i class="fa-solid fa-bag-shopping" style="color: #000000;"></i> Realizar compra</a>
+                                <a id="showAlertBtn-payment" href="#" class="btn btn-1 w-100 shadow-0 mb-2"><i class="fa-solid fa-bag-shopping"></i> Realizar compra</a>
                                 <a href="#" class="btn btn-2 btn-light w-100 mt-2 text-dark">Volver a la tienda</a>
                             </div>
                             <!-- Payment methods -->
@@ -104,8 +105,11 @@
             </div>
         </div>
     </section>
-    <!-- Bootstrap JS -->
+    <!-- Bootstrap JS and SweetAlert2 JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+    <script src="../js/showAlertBtn-payment.js"></script>
+
 </body>
 
 </html>
