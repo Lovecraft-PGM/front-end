@@ -164,6 +164,15 @@ a .bi-person-circle, a .bi-cart {
   
   height: 150px;
 }
+.text-white{
+  text-decoration: none;
+}
+
+.decoration:hover{
+  text-decoration: underline;
+}
+
+
 @media screen and (max-width: 1000px){
 
 
@@ -176,3 +185,4 @@ a .bi-person-circle, a .bi-cart {
   }
 
 }
+

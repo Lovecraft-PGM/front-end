@@ -35,7 +35,7 @@ require_once('initiator.php');
                         <img class="searchImg" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1" />
                     </a>
                 </form>
-                <a href="">
+                <a href="shopping-cart.php">
                     <i class="bi bi-cart tamano-icono color-icon"></i>
                 </a>
                 <a href="login.php">

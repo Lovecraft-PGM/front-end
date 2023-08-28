@@ -1,43 +1,62 @@
-*{
-    padding: 0;
-    margin: 0;
+.card-title{
+    height: 55px;
 }
 
-body{
-    background: rgb(237,242,250);
-    background: radial-gradient(circle, rgba(237,242,250,1) 0%, rgba(237,242,250,1) 50%, rgba(237,242,250,1) 100%);
+/* Define the gap between child elements within the 'container-titles' container */
+.container-titles {
+    gap: 6.3rem;
 }
 
-.container-titles{
-    gap: 6.1rem;
+.card-title-2{
+    margin-top: 1.15em;
 }
 
-.img-product{
-    width: 96px; height: 96px;
+/* Set dimensions for product images */
+.img-product {
+    width: 96px;
+    height: 96px;
 }
 
+/* Apply styles to an icon when it's hovered over */
 .icon-hover-danger:hover {
     border-color: #000000 !important;
     background-color: white !important;
     color: black;
 }
 
-.input-calculo{
+/* Define styles for a calculation input field */
+.input-calculo {
     width: 100px;
 }
 
+/* Change the color of an icon inside an element with the 'icon-hover-danger' class when hovered over */
 .icon-hover-danger:hover i {
     color: #000000 !important;
 }
 
-.btn:hover{
+/* Apply styles to buttons when hovered over */
+.btn:hover {
     border-color: black;
 }
 
-.btn-1{
+/* Apply specific background color to a type of button */
+.btn-1 {
     background-color: #f59300;
 }
 
-.btn-2:hover{
+/* Apply styles to a specific button when hovered over */
+.btn-2:hover {
     border-color: black;
+}
+
+.product-link{
+    text-decoration: none;
+    color: #000000;
+    font-size: large;
+    font-weight: 500;
+}
+
+.product-link:hover{
+    font-size: x-large;
+    text-shadow: 0px 0px 5px #000000;
 }

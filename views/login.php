@@ -1,4 +1,3 @@
-
 <?php
 require_once('resources/initiator.php')
 ?>
@@ -20,7 +19,7 @@ require_once('resources/header-basico.php')
                 <img class="avatar" src="../img/perfil.png" alt="">
             </div>
 
-            <div class="col-md-7 mx-auto mt-3 mb-4">
+            <div class="col-md-7 mx-auto mb-5 d-grid gap-2">
 
                 <label class="word" name="email">Correo</label>
 
@@ -43,6 +42,7 @@ require_once('resources/header-basico.php')
         </form>
     </div>
 </div>
-</body>
 
-</html>
+<?php
+require_once('resources/footer.php')
+?>

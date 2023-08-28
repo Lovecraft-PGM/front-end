@@ -16,7 +16,9 @@ require_once('resources/header-1.php')
 
 <div class="collection">
     <div class="autoplay  slider2mar" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
-        <img src="../img/fondo.jpg" alt="">
+        <img src="../img/fondo.png" alt="">
+        <img src="../img/fondo2.png" alt="">
+        <img src="../img/fondo3.png" alt="">
     </div>
 </div>
 
@@ -30,28 +32,40 @@ require_once('resources/header-1.php')
     <div class="autoplay  slider2mar" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
 
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/mujeres/abrigos.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/mujeres/blusas.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/mujeres/chaquetas.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/mujeres/faldas.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/mujeres/jeans.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/mujeres/traje.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/hombres/camisas.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/hombres/chaquetas.png" alt="">
+        </a>
+        <a class="card-slider-mar" href="#">
+            <img class="img-slider-cat" src="../img/hombres/conjuntos.png" alt="">
+        </a>
+        <a class="card-slider-mar" href="#">
+            <img class="img-slider-cat" src="../img/hombres/pantalones.png" alt="">
+        </a>
+        <a class="card-slider-mar" href="#">
+            <img class="img-slider-cat" src="../img/hombres/sueteres.png" alt="">
+        </a>
+        <a class="card-slider-mar" href="#">
+            <img class="img-slider-cat" src="../img/hombres/trajes.png" alt="">
         </a>
     </div>
 </div>
@@ -87,28 +101,28 @@ require_once('resources/header-1.php')
     <div class="autoplay  slider2mar" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
 
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/marcas/adidas.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/marcas/fila.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/marcas/chevignon.png" alt="">
         </a>
         <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+            <img class="img-slider-cat" src="../img/marcas/new-balance.png" alt="">
         </a>
-        <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+        <a class="card-slider-mar" href="">
+            <img class="img-slider-cat" src="../img/marcas/lacoste.png" alt="">
         </a>
-        <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+        <a class="card-slider-mar" href="">
+            <img class="img-slider-cat" src="../img/marcas/puma.png" alt="">
         </a>
-        <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+        <a class="card-slider-mar" href="">
+            <img class="img-slider-cat" src="../img/marcas/under.png" alt="">
         </a>
-        <a class="card-slider-mar" href="#">
-            <img class="img-slider-cat" src="" alt="">
+        <a class="card-slider-mar" href="">
+            <img class="img-slider-cat" src="../img/marcas/vans.png" alt="">
         </a>
     </div>
 </div>

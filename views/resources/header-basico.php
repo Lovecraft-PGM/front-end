@@ -2,7 +2,6 @@
 require_once('initiator.php');
 ?>
 <link rel="stylesheet" href="../css/header-basico.css" />
-
 </head>
 
 <body>
@@ -19,5 +18,3 @@ require_once('initiator.php');
             </div>
         </div>
     </header>
-
-
