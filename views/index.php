@@ -11,7 +11,10 @@ require_once('resources/initiator.php')
 <?php
 require_once('resources/header-1.php')
 ?>
+   
 
+
+   
 
 
 <div class="collection">
