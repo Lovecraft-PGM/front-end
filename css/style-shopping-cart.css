@@ -10,9 +10,17 @@ body {
     background: radial-gradient(circle, rgba(237, 242, 250, 1) 0%, rgba(237, 242, 250, 1) 50%, rgba(237, 242, 250, 1) 100%);
 }
 
+.card-title{
+    height: 55px;
+}
+
 /* Define the gap between child elements within the 'container-titles' container */
 .container-titles {
-    gap: 6.1rem;
+    gap: 6.3rem;
+}
+
+.card-title-2{
+    margin-top: 1.15em;
 }
 
 /* Set dimensions for product images */
