@@ -22,7 +22,7 @@
             <div class="row">
                 <!-- Cart -->
                 <div class="col-lg-9">
-                    <div class="card-title card mb-1 p-1 d-gri">
+                    <div class="card-title card mb-1 p-1">
                         <div class="container-titles d-flex">
                             <h4 class="card-title m-2">Tu carrito de compras</h4>
                             <h6 class="card-title-2">(<span></span>)Productos</h6>
